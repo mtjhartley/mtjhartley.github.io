@@ -156,7 +156,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate>
+            <!-- <form name="sentMessage" id="contactForm" novalidate>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                   <label>Name</label>
@@ -190,7 +190,8 @@
               <div class="form-group">
                 <button type="submit" class="btn btn-success btn-lg">Send</button>
               </div>
-            </form>
+            </form> -->
+            <form action="http://formspree.io/you@email.com"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>
           </div>
         </div>
       </div>
@@ -287,7 +288,7 @@
                   <ul class="list-inline item-details">
                     <li>
                       <strong>
-                        <a href="http://hartpr.herokuapp.com/rankings/1" target="_blank">HartTV</a>
+                        <a href="http://hartpr.herokuapp.com/rankings/1" target="_blank">HartPR</a>
                       </strong>
                     </li>
                     <li>
