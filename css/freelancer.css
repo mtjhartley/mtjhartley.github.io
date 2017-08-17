@@ -55,7 +55,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: white;
-  background-color: #18BC9C; }
+  background-color: #11602d; }
 
 hr.star-primary {
   border-color: #2C3E50; }
@@ -148,7 +148,7 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #18BC9C; }
+      background: #11602d; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: #18BC9C; }
@@ -179,8 +179,9 @@ header.masthead {
     display: block;
     text-transform: uppercase; }
   header.masthead .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300; }
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic; }
 
 @media (min-width: 768px) {
   header.masthead {
