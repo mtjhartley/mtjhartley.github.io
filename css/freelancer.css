@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: transparent; }
+  background: #2C3E50; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -130,8 +130,8 @@ section.success {
     border-color: white; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: white;
-      border-color: #18BC9C;
-      background-color: #18BC9C; }
+      border-color: #11602d;
+      background-color: #11602d; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -139,7 +139,8 @@ section.success {
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s; }
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    background: transparent; }
     #mainNav .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;
@@ -151,7 +152,7 @@ section.success {
       background: #11602d; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
-        background: #18BC9C; }
+        background: #11602d; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
