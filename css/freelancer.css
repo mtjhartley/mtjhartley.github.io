@@ -75,7 +75,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C; }
+  background: #11602d; }
 
 @media (max-width: 767px) {
   section {
@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: transparent; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -154,7 +154,8 @@ section.success {
         background: #18BC9C; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    background: #2C3E50; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
@@ -163,7 +164,11 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #18BC9C;
+  background-size: cover;
+  background-image: url("../img/seattle.jpg");
+  background-attachment: fixed;
+  height: 900px;}
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -399,8 +404,8 @@ footer {
 .btn-success {
   font-weight: 700;
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C; }
+  border-color: #11602d;
+  background-color: #11602d; }
   .btn-success.focus, .btn-success:focus {
     color: white;
     border-color: #0a4b3e;
