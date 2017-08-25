@@ -406,13 +406,13 @@
                   <h3>Purpose</h3>
                   <p>Created as an online version of the popular board game Codenames to have a fun family-friendly game to play on the weekends.</p>
                   <h3>Technical Summary</h3>
-                  <p>The backend for codenames was written in C# with the ASP.NET Core MVC framework and uses Entity Framework as the ORM to communicate with our MySQL database. The frontend was written in Angular4 with JavaScript, and is used to render different HTML elements for the codemasters and players.</p>
+                  <p>The back-end for codenames was written in C# with the ASP.NET Core MVC framework and uses Entity Framework as the ORM to communicate with our MySQL database. The front-end was written in Angular4 with JavaScript, and is used to render different HTML elements for the codemasters and players.</p>
                   <h3>Personal Summary</h3>
                   <p>Codenames was developed in tandem with another student from Coding Dojo, Mike Bergstrom. We decided to team up on the project as neither of us had any prior meaningful experience pair programming with another person with similar skillsets and knowledge.</p> 
                   <p>The most difficult feature to implement was the communication of the game state between the codemaster and the players. After discovering that the WebSockets and SignalR package was not compatible with our version of ASP.NET Core MVC, we decided to use our MySQL database to store all of the game state, and have both codemaster and players query the database intermittently depending on the phase of the game. Working out the logic of this process and the tradeoffs of using these frequent DB queries over socket based communication was educational and rewarding.</p>
                   <h3>Best Experiences</h3>
-                  <p>Dividing up the work was a new experience for both of us in programming. We decided that I would handle much of the backend queries and logic, while Mike would handle the frontend Angular code and managing the state of the game.</p>
-                  <p>As the processes for communicating between the frontend and the backend were so closely linked, we needed to clearly layout the desired inputs and outputs for each API call and response. Furthermore, we needed to keep each other on track with Git commits and discuss how to handle merge conflicts. This need to constantly communicate and explain our thought processes resulted in us writing cleaner and better code.</p>
+                  <p>Dividing up the work was a new experience for both of us in programming. We decided that I would handle much of the back-end queries and logic, while Mike would handle the front-end Angular code and managing the state of the game.</p>
+                  <p>As the processes for communicating between the front-end and the back-end were so closely linked, we needed to clearly layout the desired inputs and outputs for each API call and response. Furthermore, we needed to keep each other on track with Git commits and discuss how to handle merge conflicts. This need to constantly communicate and explain our thought processes resulted in us writing cleaner and better code.</p>
                   <ul class="list-inline item-details">
                     <li>
                       <strong>
